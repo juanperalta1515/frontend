@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "pagina-personal-jp",
+    "produccion": "software-jp"
+  },
+  "targets": {},
+  "etags": {}
+}

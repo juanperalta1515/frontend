@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { ContactService } from './contact.service';
-
+import { ReactiveFormsModule } from '@angular/forms'; // Importalo
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-contact',
+  standalone: true, // Esto confirma que es standalone
+  imports: [ReactiveFormsModule, CommonModule], // Importa ReactiveFormsModule aquí
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css'],
 })
